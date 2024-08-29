@@ -31,14 +31,14 @@
                   </svg>
                   <span>Simplify your security</span>
                 </button>
-                <button class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100" :class="tab !== '2' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'" @click.prevent="tab = '2'">
-                  <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                <button class="flex items-center text-sm font-medium text-neutral-50 rounded border bg-neutral-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100" :class="tab !== '2' ? 'border-neutral-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'" @click.prevent="tab = '2'">
+                  <svg class="shrink-0 fill-neutral-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                     <path d="M2 6H0V2a2 2 0 0 1 2-2h4v2H2v4ZM16 6h-2V2h-4V0h4a2 2 0 0 1 2 2v4ZM14 16h-4v-2h4v-4h2v4a2 2 0 0 1-2 2ZM6 16H2a2 2 0 0 1-2-2v-4h2v4h4v2Z" />
                   </svg>
                   <span>Customer identity</span>
                 </button>
-                <button class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100" :class="tab !== '3' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'" @click.prevent="tab = '3'">
-                  <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                <button class="flex items-center text-sm font-medium text-neutral-50 rounded border bg-neutral-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100" :class="tab !== '3' ? 'border-neutral-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'" @click.prevent="tab = '3'">
+                  <svg class="shrink-0 fill-neutral-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                     <path d="M14.3.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-8 8c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l8-8ZM15 7c.6 0 1 .4 1 1 0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8c.6 0 1 .4 1 1s-.4 1-1 1C4.7 2 2 4.7 2 8s2.7 6 6 6 6-2.7 6-6c0-.6.4-1 1-1Z" />
                   </svg>
                   <span>Adaptable authentication</span>
@@ -89,7 +89,7 @@
                       leave-to-class="opacity-0 rotate-[60deg]"
                     >
                       <div class="absolute" v-show="tab === '1'">                        
-                        <div class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl">
+                        <div class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.neutral.400),_theme(colors.neutral.700)_25%,_theme(colors.neutral.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl">
                           <svg class="relative fill-slate-200" xmlns="http://www.w3.org/2000/svg" width="23" height="25">
                             <path fill-rule="nonzero" d="M10.55 15.91H.442L14.153.826 12.856 9.91h10.107L9.253 24.991l1.297-9.082Zm.702-8.919L4.963 13.91h7.893l-.703 4.918 6.289-6.918H10.55l.702-4.918Z" />
                           </svg>

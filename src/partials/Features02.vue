@@ -64,7 +64,7 @@
                         </div>
                       </div>
                       <div>
-                        <a class="btn-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out group [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.neutral.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" href="#0">
+                        <a class="btn-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out group [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.neutral.400),_theme(colors.neutral.700)_25%,_theme(colors.neutral.700)_75%,_theme(colors.neutral.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-neutral-800/30 before:rounded-full before:pointer-events-none" href="#0">
                           <span class="relative inline-flex items-center">
                             Learn more <span class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                           </span>
@@ -82,17 +82,17 @@
             <!-- Box #2 -->
             <div class="md:col-span-7" data-aos="fade-down">
               <HighlighterItem>
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-neutral-900 rounded-[inherit] z-20 overflow-hidden">
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
                     <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
-                      <div class="absolute inset-0 translate-z-0 bg-slate-800 rounded-full blur-[80px]"></div>
+                      <div class="absolute inset-0 translate-z-0 bg-neutral-800 rounded-full blur-[80px]"></div>
                     </div>
                     <!-- Text -->
                     <div class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0">
                       <div>
-                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Extensibility</h3>
-                        <p class="text-slate-400">Your login box must find the right balance between user convenience, privacy and security.</p>
+                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-1">Extensibility</h3>
+                        <p class="text-neutral-400">Your login box must find the right balance between user convenience, privacy and security.</p>
                       </div>
                     </div>
                     <!-- Image -->
@@ -106,16 +106,16 @@
             <!-- Box #3 -->
             <div class="md:col-span-5" data-aos="fade-down">
               <HighlighterItem>
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-neutral-900 rounded-[inherit] z-20 overflow-hidden">
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
                     <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
-                      <div class="absolute inset-0 translate-z-0 bg-slate-800 rounded-full blur-[80px]"></div>
+                      <div class="absolute inset-0 translate-z-0 bg-neutral-800 rounded-full blur-[80px]"></div>
                     </div>
                     <!-- Text -->
                     <div class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0">
                       <div>
-                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Infinite options</h3>
+                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-slate-200 to-slate-200/60 pb-1">Infinite options</h3>
                         <p class="text-slate-400">Quickly apply filters to refine your issues lists and create custom views.</p>
                       </div>
                     </div>

@@ -57,24 +57,24 @@
                 <div class="mb-1">
                   <span class="text-lg font-medium text-neutral-500">$</span><span class="text-3xl font-bold text-neutral-50">{{ annual ? '24' : '29' }}</span><span class="text-sm text-neutral-600 font-medium">/mo</span>
                 </div>
-                <div class="text-slate-500">Everything at your fingertips.</div>
+                <div class="text-neutral-500">Everything at your fingertips.</div>
               </div>
-              <div class="pb-4 border-b border-slate-800">
-                <a class="btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="#0">
+              <div class="pb-4 border-b border-neutral-800">
+                <a class="btn-sm text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="#0">
                   Get Started <span class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
               </div>
             </div>
             <!-- Team price -->
             <div class="px-6 flex flex-col justify-end">
-              <div class="grow pb-4 mb-4 border-b border-slate-800">
+              <div class="grow pb-4 mb-4 border-b border-neutral-800">
                 <div class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5">Team</div>
                 <div class="mb-1">
-                  <span class="text-lg font-medium text-slate-500">$</span><span class="text-3xl font-bold text-slate-50">{{ annual ? '49' : '54' }}</span><span class="text-sm text-slate-600 font-medium">/mo</span>
+                  <span class="text-lg font-medium text-neutral-500">$</span><span class="text-3xl font-bold text-neutral-50">{{ annual ? '49' : '54' }}</span><span class="text-sm text-neutral-600 font-medium">/mo</span>
                 </div>
-                <div class="text-slate-500">Everything at your fingertips.</div>
+                <div class="text-neutral-500">Everything at your fingertips.</div>
               </div>
-              <div class="pb-4 border-b border-slate-800">
+              <div class="pb-4 border-b border-neutral-800">
                 <a class="btn-sm text-white bg-purple-500 hover:bg-purple-600 w-full transition duration-150 ease-in-out group" href="#0">
                   Get Started <span class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
@@ -82,35 +82,35 @@
             </div>
             <!-- Enterprise price -->
             <div class="px-6 flex flex-col justify-end">
-              <div class="grow pb-4 mb-4 border-b border-slate-800">
+              <div class="grow pb-4 mb-4 border-b border-neutral-800">
                 <div class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5">Enterprise</div>
                 <div class="mb-1">
-                  <span class="text-lg font-medium text-slate-500">$</span><span class="text-3xl font-bold text-slate-50">{{ annual ? '79' : '85' }}</span><span class="text-sm text-slate-600 font-medium">/mo</span>
+                  <span class="text-lg font-medium text-neutral-500">$</span><span class="text-3xl font-bold text-neutral-50">{{ annual ? '79' : '85' }}</span><span class="text-sm text-neutral-600 font-medium">/mo</span>
                 </div>
-                <div class="text-slate-500">Everything at your fingertips.</div>
+                <div class="text-neutral-500">Everything at your fingertips.</div>
               </div>
-              <div class="pb-4 border-b border-slate-800">
-                <a class="btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="#0">
+              <div class="pb-4 border-b border-neutral-800">
+                <a class="btn-sm text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="#0">
                   Get Started <span class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
               </div>
             </div>
             <!-- # Usage -->
             <div class="px-6 flex flex-col justify-end">
-              <div class="py-2 text-slate-50 font-medium mt-4">Usage</div>
+              <div class="py-2 text-neutral-50 font-medium mt-4">Usage</div>
             </div>
             <div class="px-6 flex flex-col justify-end">
-              <div class="py-2 text-slate-50 font-medium mt-4 md:hidden">Usage</div>
+              <div class="py-2 text-neutral-50 font-medium mt-4 md:hidden">Usage</div>
             </div>
             <div class="px-6 flex flex-col justify-end">
-              <div class="py-2 text-slate-50 font-medium mt-4 md:hidden">Usage</div>
+              <div class="py-2 text-neutral-50 font-medium mt-4 md:hidden">Usage</div>
             </div>
             <div class="px-6 flex flex-col justify-end">
-              <div class="py-2 text-slate-50 font-medium mt-4 md:hidden">Usage</div>
+              <div class="py-2 text-neutral-50 font-medium mt-4 md:hidden">Usage</div>
             </div>
             <!-- Social Connections -->
             <div class="px-6 flex flex-col justify-end">
-              <div class="py-2 text-slate-400 border-b border-slate-800">Social Connections</div>
+              <div class="py-2 text-neutral-400 border-b border-neutral-800">Social Connections</div>
             </div>
             <div class="px-6 flex flex-col justify-end">
               <div class="flex items-center h-full border-b border-slate-800 py-2 text-slate-400">

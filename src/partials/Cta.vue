@@ -21,14 +21,14 @@
         </div>
         <!-- Content -->
         <div class="max-w-3xl mx-auto text-center">
+<!--          <div>-->
+<!--            <div class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>-->
+<!--          </div>-->
+          <h2 class="h2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-4">Хотите присоединится к команде партнеров Хакатона?</h2>
+          <p class="text-lg text-neutral-400 mb-8"> Всю подробную информацию об условиях участия и актуальных пакетах партнера можно узнать написав на почту.</p>
           <div>
-            <div class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>
-          </div>
-          <h2 class="h2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-4">Take control of your business</h2>
-          <p class="text-lg text-neutral-400 mb-8">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-          <div>
-            <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="#0">
-              Get Started <span class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+            <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="mailto:hackathon.rostov@gmail.com">
+              hackathon.rostov@gmail.com <span class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"></span>
             </a>
           </div>
         </div>

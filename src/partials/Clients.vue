@@ -11,7 +11,7 @@
         <div class="overflow-hidden">
           <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
           <!-- * Custom styles in src/css/additional-styles/theme.scss -->
-          <div class="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-transparent after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-transparent">
+          <div class="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-neutral-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-neutral-950">
             <div class="swiper-wrapper !ease-linear select-none items-center">
               <!-- Carousel items -->
               <div class="swiper-slide !w-auto">

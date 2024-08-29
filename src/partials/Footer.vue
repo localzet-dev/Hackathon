@@ -61,55 +61,55 @@
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Changelog</a>
             </li>
             <li>
-              <a class="text-neutral-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Our method</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Our method</a>
             </li>
           </ul>
         </div>
 
         <!-- 3rd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-50 font-medium mb-2">Company</h6>
+          <h6 class="text-sm text-neutral-50 font-medium mb-2">Company</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">About us</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">About us</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Diversity & Inclusion</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Diversity & Inclusion</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Blog</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Blog</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Careers</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Careers</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Financial statements</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Financial statements</a>
             </li>
           </ul>
         </div>
 
         <!-- 4th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-50 font-medium mb-2">Resources</h6>
+          <h6 class="text-sm text-neutral-50 font-medium mb-2">Resources</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Community</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Community</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Terms of service</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Terms of service</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Report a vulnerability</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Report a vulnerability</a>
             </li>
           </ul>
         </div>
 
         <!-- 5th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-50 font-medium mb-2">Legals</h6>
+          <h6 class="text-sm text-neutral-50 font-medium mb-2">Legals</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Refund policy</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Refund policy</a>
             </li>
             <li>
               <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Terms & Conditions</a>

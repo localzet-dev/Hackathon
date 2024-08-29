@@ -14,7 +14,7 @@
           <div class="relative h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_40%,theme(colors.white))]">
             <transition-group
               tag="div"
-              class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-slate-400/20 before:to-transparent before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-slate-900 after:m-px before:-z-20 after:-z-20"
+              class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-neutral-400/20 before:to-transparent before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-neutral-900 after:m-px before:-z-20 after:-z-20"
               enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
               enter-from-class="opacity-0 -rotate-[60deg]"
               enter-to-class="opacity-100 rotate-0"
@@ -43,7 +43,7 @@
             >              
               <template :key="index" v-for="(item, index) in items">
                 <div v-show="active === index">
-                  <div class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60">{{ item.quote }}</div>
+                  <div class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60">{{ item.quote }}</div>
                 </div>
               </template>
             </transition-group>
@@ -51,7 +51,7 @@
           <!-- Buttons -->
           <div class="flex flex-wrap justify-center -m-1.5">
             <template :key="index" v-for="(item, index) in items">
-              <button class="btn-sm m-1.5 text-xs py-1.5 text-slate-300 transition duration-150 ease-in-out [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" :class="active === index ? 'opacity-100' : 'opacity-30 hover:opacity-60'" @click="active = index; stopAutorotate();">
+              <button class="btn-sm m-1.5 text-xs py-1.5 text-neutral-300 transition duration-150 ease-in-out [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" :class="active === index ? 'opacity-100' : 'opacity-30 hover:opacity-60'" @click="active = index; stopAutorotate();">
                 <span class="relative">
                   <span class="text-slate-50">{{ item.name }}</span> <span class="text-slate-600">-</span> <span>{{ item.role }}</span>
                 </span>
