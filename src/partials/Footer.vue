@@ -15,7 +15,7 @@
                   <img src="https://hackathon.localzet.com/logo.svg" width="38" height="38" alt="Hackathon">
                 </router-link>
               </div>
-              <div class="text-sm text-neutral-300">Copyright &copy; 2024 Localzet Group. <span class="text-neutral-500">-</span> Все права защищены.</div>
+              <div class="text-sm text-neutral-300">Copyright &copy; 2024 Localzet Group <br /> <span class="text-neutral-500">Все права защищены</span></div>
             </div>
             <!-- Social links -->
             <ul class="flex">
@@ -46,16 +46,16 @@
 
         <!-- 2nd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-neutral-50 font-medium mb-2">Products</h6>
+          <h6 class="text-sm text-neutral-50 font-medium mb-2">Участникам</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Features</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="https://vk.com/video/@fantastic_hackathon/all">Видеозаписи</a>
             </li>
             <li>
-              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Integrations</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="https://vk.com/albums-106352936">Фотоальбомы</a>
             </li>
             <li>
-              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Pricing & Plans</a>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="https://go.localzet.com/hack-archive">Архив кейсов</a>
             </li>
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out" href="#0">Changelog</a>

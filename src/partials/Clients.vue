@@ -15,13 +15,10 @@
             <div class="swiper-wrapper !ease-linear select-none items-center">
               <!-- Carousel items -->
               <div class="swiper-slide !w-auto">
-                <img src="../images/client-01.svg" alt="Client 01" width="110" height="21" />
-              </div>
-              <div class="swiper-slide !w-auto">
                 <img src="../images/client-02.svg" alt="Client 02" width="70" height="25" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="mt-1" src="../images/client-03.svg" alt="Client 03" width="107" height="33" />
+                <img src="../images/client-03.svg" alt="Client 03" width="107" height="33" />
               </div>
               <div class="swiper-slide !w-auto">
                 <img src="../images/client-04.svg" alt="Client 04" width="85" height="36" />
@@ -39,7 +36,7 @@
                 <img src="../images/client-08.svg" alt="Client 08" width="98" height="26" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="mt-2" src="../images/client-09.svg" alt="Client 09" width="92" height="28" />
+                <img src="../images/client-09.svg" alt="Client 09" width="92" height="28" />
               </div>
             </div>
           </div>

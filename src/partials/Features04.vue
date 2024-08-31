@@ -2,6 +2,13 @@
   <section class="relative">
     <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
 
+      <!-- Illustration -->
+      <div class="absolute inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none overflow-hidden" aria-hidden="true">
+        <div class="absolute left-1/2 -translate-x-1/2 top-0 -z-10">
+          <img src="../images/glow-top.svg" class="max-w-none" width="1404" height="658" alt="Features Illustration">
+        </div>
+      </div>
+
       <!-- Blurred shape -->
       <div class="absolute top-0 -mt-24 left-0 -ml-16 blur-2xl opacity-70 pointer-events-none -z-10" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
@@ -23,151 +30,151 @@
             Партнёры</h2>
         </div>
 
+        <Highlighter class="grid md:grid-cols-12 gap-6 group">
+          <!-- Box #1 -->
+          <div class="md:col-span-3 h-64" data-aos="fade-down">
+            <HighlighterItem class="h-64">
+              <div class="relative h-full bg-neutral-900 rounded-[inherit] z-20 overflow-hidden justify-between">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                  <!-- Blurred shape -->
+                  <div class="absolute right-0 top-0 blur-2xl" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="342" height="393">
+                      <defs>
+                        <linearGradient id="bs-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
+                          <stop offset="0%" stop-color="#6366F1" />
+                          <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#bs-a)" fill-rule="evenodd" d="m104 .827 461 369-284 58z" transform="translate(0 -112.827)" opacity=".7" />
+                    </svg>
+                  </div>
+                  <!-- Radial gradient -->
+                  <div class="absolute flex items-center justify-center bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 h-full aspect-square" aria-hidden="true">
+                    <div class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-70"></div>
+                    <div class="absolute w-1/4 h-1/4 translate-z-0 bg-purple-400 rounded-full blur-[40px]"></div>
+                  </div>
+
+                  <!-- Image -->
+                  <div class="relative w-full h-64 md:h-auto overflow-hidden p-3 mx-2 ">
+                    <img src="../images/partners/center-invest.png" alt="Client 01"/>
+                  </div>
+                </div>
+              </div>
+            </HighlighterItem>
+          </div>
+          <div class="md:col-span-3 h-64" data-aos="fade-down">
+            <HighlighterItem class="h-64">
+              <div class="relative h-full bg-neutral-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                  <!-- Blurred shape -->
+                  <div class="absolute right-0 top-0 blur-2xl" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="342" height="393">
+                      <defs>
+                        <linearGradient id="bs-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
+                          <stop offset="0%" stop-color="#6366F1" />
+                          <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#bs-a)" fill-rule="evenodd" d="m104 .827 461 369-284 58z" transform="translate(0 -112.827)" opacity=".7" />
+                    </svg>
+                  </div>
+                  <!-- Radial gradient -->
+                  <div class="absolute flex items-center justify-center bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 h-full aspect-square" aria-hidden="true">
+                    <div class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-70"></div>
+                    <div class="absolute w-1/4 h-1/4 translate-z-0 bg-purple-400 rounded-full blur-[40px]"></div>
+                  </div>
+
+                  <!-- Image -->
+                  <div class="relative w-full h-64 md:h-auto overflow-hidden p-3 mx-2">
+                    <img src="../images/partners/altiora.png" class="w-max-full h-max-full" alt="Client 01"/>
+                  </div>
+                </div>
+              </div>
+            </HighlighterItem>
+          </div>
+        </Highlighter>
         <!-- Rows -->
-        <div class="divide-y divide-neutral-800">
-          <!-- Row -->
-          <div class="py-8 first-of-type:pt-0 last-of-type:pb-0">
-            <div>
-              <div
-                  class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-6">
-                API Authorization
-              </div>
-            </div>
-            <div class="grid md:grid-cols-3 gap-8 md:gap-12 mb-2">
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M13 16c-.153 0-.306-.035-.447-.105l-3.851-1.926c-.231.02-.465.031-.702.031-4.411 0-8-3.14-8-7s3.589-7 8-7 8 3.14 8 7c0 1.723-.707 3.351-2 4.63V15a1.003 1.003 0 0 1-1 1Zm-4.108-4.054c.155 0 .308.036.447.105L12 13.382v-2.187c0-.288.125-.562.341-.752C13.411 9.506 14 8.284 14 7c0-2.757-2.691-5-6-5S2 4.243 2 7s2.691 5 6 5c.266 0 .526-.02.783-.048a1.01 1.01 0 0 1 .109-.006Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Discussions</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M15 9a3.841 3.841 0 0 0-2.661 1.545A2.524 2.524 0 0 0 10 9a1 1 0 1 0 0 2c.361 0 .57.279.89 1.284C10.243 13.08 9.441 14 9 14a1 1 0 0 0 0 2 3.841 3.841 0 0 0 2.661-1.545A2.524 2.524 0 0 0 14 16a1 1 0 0 0 0-2c-.361 0-.571-.279-.89-1.284C13.757 11.92 14.559 11 15 11a1 1 0 0 0 0-2Z"/>
-                    <path
-                        d="M10 8a1 1 0 0 0 0-2H7.825c.432-2.421.983-4 2.175-4a1 1 0 0 1 1 1 1 1 0 0 0 2 0 3 3 0 0 0-3-3C7.193 0 6.313 2.9 5.793 6H3a1 1 0 1 0 0 2h2.49c-.506 3.52-1 6-2.49 6a1 1 0 0 1-1-1 1 1 0 0 0-2 0 3 3 0 0 0 3 3c3.367 0 3.964-4.175 4.49-7.858L7.51 8H10Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Team views</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7ZM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5ZM15.707 14.293 13.314 11.9a8.019 8.019 0 0 1-1.414 1.414l2.393 2.393a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Powerful search</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Row -->
-          <div class="py-8">
-            <div>
-              <div
-                  class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-6">
-                User Management
-              </div>
-            </div>
-            <div class="grid md:grid-cols-3 gap-8 md:gap-12 mb-2">
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M2 6H0V2a2 2 0 0 1 2-2h4v2H2v4ZM16 6h-2V2h-4V0h4a2 2 0 0 1 2 2v4ZM14 16h-4v-2h4v-4h2v4a2 2 0 0 1-2 2ZM6 16H2a2 2 0 0 1-2-2v-4h2v4h4v2Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Analytics</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M6.974 14c-.3 0-.7-.2-.9-.5l-2.2-3.7-2.1 2.8c-.3.4-1 .5-1.4.2-.4-.3-.5-1-.2-1.4l3-4c.2-.3.5-.4.9-.4.3 0 .6.2.8.5l2 3.3 3.3-8.1c0-.4.4-.7.8-.7s.8.2.9.6l4 8c.2.5 0 1.1-.4 1.3-.5.2-1.1 0-1.3-.4l-3-6-3.2 7.9c-.2.4-.6.6-1 .6Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Notifications</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path d="M14 0H2c-.6 0-1 .4-1 1v14c0 .6.4 1 1 1h8l5-5V1c0-.6-.4-1-1-1ZM3 2h10v8H9v4H3V2Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Integrations</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Row -->
-          <div class="py-8">
-            <div>
-              <div
-                  class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-6">
-                Standard Security
-              </div>
-            </div>
-            <div class="grid md:grid-cols-3 gap-8 md:gap-12 mb-2">
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M15.5 11H13a5.022 5.022 0 0 1-3.453-1.4l-1.2 1.607A7.065 7.065 0 0 0 12 12.92v1.586a.5.5 0 0 0 .853.349l3-3A.5.5 0 0 0 15.5 11ZM1 5a5.022 5.022 0 0 1 3.453 1.4l1.205-1.61A7.028 7.028 0 0 0 1 3a1 1 0 1 0 0 2ZM13 5h2.5a.5.5 0 0 0 .354-.853l-3-3A.5.5 0 0 0 12 1.5v1.58a7.032 7.032 0 0 0-4.6 2.72L5 9a5.025 5.025 0 0 1-4 2 1 1 0 0 0 0 2 7.034 7.034 0 0 0 5.6-2.8L9 7a5.025 5.025 0 0 1 4-2Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Privacy</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M14 14H2a1 1 0 0 0 0 2h12a1 1 0 0 0 0-2ZM7.293 11.707a1 1 0 0 0 1.414 0l5-5a1 1 0 1 0-1.414-1.414L9 8.586V1a1 1 0 1 0-2 0v7.586L3.707 5.293a1 1 0 0 0-1.414 1.414l5 5Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Data export</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-              <!-- Feature -->
-              <div>
-                <div class="flex items-center space-x-2 mb-1">
-                  <svg class="shrink-0 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                        d="M14.6.085 8 2.885 1.4.085c-.5-.2-1.4-.1-1.4.9v11c0 .4.2.8.6.9l7 3c.3.1.5.1.8 0l7-3c.4-.2.6-.5.6-.9v-11c0-1-.9-1.1-1.4-.9ZM2 2.485l5 2.1v8.8l-5-2.1v-8.8Zm12 8.8-5 2.1v-8.7l5-2.1v8.7Z"/>
-                  </svg>
-                  <h4 class="font-medium text-neutral-50">Real-time sync</h4>
-                </div>
-                <p class="text-sm text-neutral-400">Login box must find the right balance for the user convenience,
-                  privacy and security.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+<!--        <div class="divide-y divide-neutral-800">-->
+<!--          &lt;!&ndash; Row &ndash;&gt;-->
+<!--          <div class="py-8 first-of-type:pt-0 last-of-type:pb-0">-->
+<!--            <div>-->
+<!--              <div-->
+<!--                  class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-6">-->
+<!--                Биг-партнёр-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="flex flex-wrap mb-2 !w-auto">-->
+<!--              <div class=" p-2 mx-2">-->
+<!--                <img src="../images/partners/center-invest.png" class="h-24" alt="Client 01"/>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          &lt;!&ndash; Row &ndash;&gt;-->
+<!--          <div class="py-8">-->
+<!--            <div>-->
+<!--              <div-->
+<!--                  class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-6">-->
+<!--                Другие партнеры-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="flex flex-wrap mb-2 !w-auto">-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/altiora.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/axenix.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/beshtau.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/datum-soft.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/it.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/garage.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/eltex.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/forabank.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/iktin.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/it-education.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/kaspersky.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/sber.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/mediapark.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/odgetto.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/rostov-youth.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/special-university-automation.png" class="h-20" alt=""/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/ttk.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--              <div class="p-2 m-2">-->
+<!--                <img src="../images/partners/webpractik-white.png" class="h-20" alt="Client 01"/>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
 
       </div>
     </div>
@@ -175,7 +182,11 @@
 </template>
 
 <script>
+import Highlighter from "./Highlighter.vue";
+import HighlighterItem from "./HighlighterItem.vue";
+
 export default {
-  name: 'Features04'
+  name: 'Features04',
+  components: {HighlighterItem, Highlighter}
 }
 </script>
