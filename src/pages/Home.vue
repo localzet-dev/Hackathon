@@ -9,8 +9,8 @@
 
       <Hero />
       <Clients />
-<!--      <Features />-->
-      <Features04 />
+      <Features />
+<!--      <Features04 />-->
       <Features02 />
       <Features03 />
       <TestimonialsCarousel />
@@ -24,6 +24,22 @@
     <Footer />    
 
   </div>
+  <svg width="300" height="300" viewBox="0 0 20 20">
+    <filter id="inset-shadow">
+      <!-- Shadow offset -->
+      <feOffset dx="0" dy="0"></feOffset>
+      <!-- Shadow blur -->
+      <feGaussianBlur stdDeviation="10" result="offset-blur"></feGaussianBlur>
+      <!-- Invert drop shadow to make an inset shadow-->
+      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"></feComposite>
+      <!-- Cut colour inside shadow -->
+      <feFlood flood-color="gray" flood-opacity=".95" result="color"></feFlood>
+      <feComposite operator="in" in="color" in2="inverse" result="shadow"></feComposite>
+      <!-- Placing shadow over element -->
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"></feComposite>
+    </filter>
+
+  </svg>
 </template>
 
 <script>
