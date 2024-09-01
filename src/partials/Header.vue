@@ -6,8 +6,8 @@
         <!-- Site branding -->
         <div class="shrink-0 mr-4">
           <!-- Logo -->
-          <router-link class="block" to="/" aria-label="Localzet">
-            <img src="https://hackathon.localzet.com/logo.svg" width="48" height="48" alt="Hackathon">
+          <router-link class="block mt-3" to="/" aria-label="Localzet">
+            <img src="https://hackathon.localzet.com/logo.svg" width="64" height="64" alt="Hackathon">
           </router-link>
         </div>
 
@@ -28,8 +28,6 @@
                   to="/reg.php">
                 <span class="relative inline-flex items-center">
                   Регистрация
-                  <span
-                      class="tracking-normal text-green-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </span>
               </router-link>
             </li>
