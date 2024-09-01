@@ -8,7 +8,7 @@
             <div class="mb-4 sm:mb-0">
               <div class="mb-4">
                 <router-link class="block" to="/" aria-label="Localzet">
-                  <img class="mx-auto md:mx-0" src="https://hackathon.localzet.com/logo.svg" width="64" height="64"
+                  <img class="mx-auto md:mx-0" src="/logo.svg" width="64" height="64"
                        alt="Hackathon">
                 </router-link>
               </div>

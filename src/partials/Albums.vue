@@ -3,16 +3,6 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="pt-12 md:pt-20">
 
-        <!-- Section header -->
-        <!--        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">-->
-        <!--          <div>-->
-        <!--            <div class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">Присоединяйтесь к команде</div>-->
-        <!--          </div>-->
-        <!--          <h2 class="h2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-4">У нас весело :)</h2>-->
-        <!--        </div>-->
-
-        <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
-        <!-- * Custom styles in src/css/additional-styles/theme.scss -->
         <div
             class="relative before:absolute before:inset-0 before:-translate-x-full before:z-20 before:bg-gradient-to-l before:from-transparent before:to-neutral-950 before:to-20% after:absolute after:inset-0 after:translate-x-full after:z-20 after:bg-gradient-to-r after:from-transparent after:to-neutral-950 after:to-20%">
           <div class="testimonials-carousel swiper-container group" data-swiper-parallax="-23%">

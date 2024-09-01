@@ -3,12 +3,6 @@
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="py-8 md:py-10">
-        <!-- Radial gradient -->
-        <!--        <div class="absolute inset-0 overflow-hidden pointer-events-none -z-10" aria-hidden="true">-->
-        <!--          <div class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 w-1/3 aspect-square">-->
-        <!--            <div class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-50"></div>-->
-        <!--          </div>-->
-        <!--        </div>-->
         <!-- Content -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
           <h2 class="h2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-4">
@@ -34,18 +28,18 @@
             <div class="px-6 flex flex-col justify-end">
               <div class="grow pb-2">
                 <div
-                    class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5">
+                    class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
                   ??.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">12:00</span> Публикация технических заданий в
+                    class="bg-clip-text text-transparent bg-green-400">12:00</span> Публикация технических заданий в
                   группе ВКонтакте
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">16:00</span> Регистрация участников
+                    class="bg-clip-text text-transparent bg-green-400">16:00</span> Регистрация участников
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">18:00</span> Торжественное открытие
+                    class="bg-clip-text text-transparent bg-green-400">18:00</span> Торжественное открытие
                 </div>
               </div>
             </div>
@@ -53,14 +47,14 @@
             <div class="px-6 flex flex-col justify-end">
               <div class="grow pb-2">
                 <div
-                    class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5">
+                    class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
                   ??.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">09:00 - 10:00</span> Первый чек-поинт
+                    class="bg-clip-text text-transparent bg-green-400">09:00 - 10:00</span> Первый чек-поинт
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">19:00 - 20:00</span> Второй чек-поинт
+                    class="bg-clip-text text-transparent bg-green-400">19:00 - 20:00</span> Второй чек-поинт
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"></div>
               </div>
@@ -69,17 +63,17 @@
             <div class="px-6 flex flex-col justify-end">
               <div class="grow pb-2">
                 <div
-                    class="text-lg-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5">
+                    class="text-lg-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
                   ??.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">16:00</span> Питч-сессия технических кейсов
+                    class="bg-clip-text text-transparent bg-green-400">16:00</span> Питч-сессия технических кейсов
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">18:40</span> Торжественное закрытие
+                    class="bg-clip-text text-transparent bg-green-400">18:40</span> Торжественное закрытие
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-purple-400">19:00</span> Общее фотографирование
+                    class="bg-clip-text text-transparent bg-green-400">19:00</span> Общее фотографирование
                 </div>
               </div>
             </div>

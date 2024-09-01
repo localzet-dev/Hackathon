@@ -7,7 +7,7 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <router-link class="block mt-3" to="/" aria-label="Localzet">
-            <img src="https://hackathon.localzet.com/logo.svg" width="64" height="64" alt="Hackathon">
+            <img src="/logo.svg" width="64" height="64" alt="Hackathon">
           </router-link>
         </div>
 
@@ -19,13 +19,13 @@
             <li>
               <router-link
                   class="font-medium text-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out"
-                  to="/lk">Вход
+                  to="https://lk.fantastic-hackathon.ru">Вход
               </router-link>
             </li>
             <li class="ml-6">
               <router-link
                   class="btn-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.neutral.950),_theme(colors.neutral.950))_padding-box] relative before:absolute before:inset-0 before:bg-neutral-800/30 before:rounded-full before:pointer-events-none"
-                  to="/reg.php">
+                  to="https://fantastic-hackathon.ru/reg.php">
                 <span class="relative inline-flex items-center">
                   Регистрация
                 </span>

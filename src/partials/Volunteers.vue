@@ -6,8 +6,8 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
         <defs>
           <linearGradient id="bs3-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
-            <stop offset="0%" stop-color="#6366F1"/>
-            <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#22c55e"/>
+            <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
           </linearGradient>
         </defs>
         <path fill="url(#bs3-a)" fill-rule="evenodd" d="m410 0 461 369-284 58z" transform="matrix(1 0 0 -1 -410 427)"/>
@@ -25,7 +25,7 @@
         <p class="text-lg text-neutral-400 mb-8">Не разбираешься в IT, но хочешь стать частью этого события?</p>
         <div>
           <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group"
-             href="mailto:hackathon.rostov@gmail.com">
+             href="https://fantastic-hackathon.ru/regv.php">
             Присоединяйся!
           </a>
         </div>
