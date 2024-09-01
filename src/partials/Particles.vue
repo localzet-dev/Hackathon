@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { ref, onMounted, onBeforeUnmount, reactive, watch } from 'vue'
+import {onBeforeUnmount, onMounted, reactive, ref, watch} from 'vue'
 import useMousePosition from './../utils/MousePosition'
 
 export default {
@@ -22,20 +22,20 @@ export default {
     ease: {
       type: Number,
       default: 50,
-    },        
+    },
     refresh: {
       type: Boolean,
       default: false,
     },
-  },  
+  },
   setup(props) {
     const canvasRef = ref(null)
     const canvasContainerRef = ref(null)
     const context = ref(null)
     const circles = ref([])
     const mousePosition = useMousePosition()
-    const mouse = reactive({ x: 0, y: 0 })
-    const canvasSize = reactive({ w: 0, h: 0 })
+    const mouse = reactive({x: 0, y: 0})
+    const canvasSize = reactive({w: 0, h: 0})
     const dpr = window.devicePixelRatio || 1
 
     onMounted(() => {
@@ -52,18 +52,18 @@ export default {
     })
 
     watch(
-      () => mousePosition.value,
-      () => {
-        onMouseMove()
-      }
+        () => mousePosition.value,
+        () => {
+          onMouseMove()
+        }
     )
 
     watch(
-      () => props.refresh,
-      () => {
-        initCanvas()
-      }
-    )   
+        () => props.refresh,
+        () => {
+          initCanvas()
+        }
+    )
 
     const initCanvas = () => {
       resizeCanvas()
@@ -73,14 +73,14 @@ export default {
     const onMouseMove = () => {
       if (canvasRef.value) {
         const rect = canvasRef.value.getBoundingClientRect()
-        const { w, h } = canvasSize
+        const {w, h} = canvasSize
         const x = mousePosition.value.x - rect.left - w / 2
         const y = mousePosition.value.y - rect.top - h / 2
         const inside = x < w / 2 && x > -w / 2 && y < h / 2 && y > -h / 2
         if (inside) {
           mouse.x = x
           mouse.y = y
-        }        
+        }
       }
     }
 
@@ -96,7 +96,7 @@ export default {
         context.value.scale(dpr, dpr)
       }
     }
-    
+
     const circleParams = () => {
       const x = Math.floor(Math.random() * canvasSize.w)
       const y = Math.floor(Math.random() * canvasSize.h)
@@ -108,12 +108,12 @@ export default {
       const dx = (Math.random() - 0.5) * 0.2
       const dy = (Math.random() - 0.5) * 0.2
       const magnetism = 0.1 + Math.random() * 4
-      return { x, y, translateX, translateY, size, alpha, targetAlpha, dx, dy, magnetism }
+      return {x, y, translateX, translateY, size, alpha, targetAlpha, dx, dy, magnetism}
     }
-    
+
     const drawCircle = (circle, update = false) => {
       if (context.value) {
-        const { x, y, translateX, translateY, size, alpha } = circle
+        const {x, y, translateX, translateY, size, alpha} = circle
         context.value.translate(translateX, translateY)
         context.value.beginPath()
         context.value.arc(x, y, size, 0, 2 * Math.PI)
@@ -132,7 +132,7 @@ export default {
         context.value.clearRect(0, 0, canvasSize.w, canvasSize.h)
       }
     }
-    
+
     const drawParticles = () => {
       clearContext()
       const particleCount = props.quantity
@@ -141,12 +141,12 @@ export default {
         drawCircle(circle)
       }
     }
-    
+
     const remapValue = (value, start1, end1, start2, end2) => {
       const remapped = ((value - start1) * (end2 - start2)) / (end1 - start1) + start2
       return remapped > 0 ? remapped : 0
     }
-    
+
     const animate = () => {
       clearContext()
       circles.value.forEach((circle, i) => {
@@ -171,10 +171,10 @@ export default {
         circle.translateY += ((mouse.y / (props.staticity / circle.magnetism)) - circle.translateY) / props.ease
         // circle gets out of the canvas
         if (
-          circle.x < -circle.size ||
-          circle.x > canvasSize.w + circle.size ||
-          circle.y < -circle.size ||
-          circle.y > canvasSize.h + circle.size
+            circle.x < -circle.size ||
+            circle.x > canvasSize.w + circle.size ||
+            circle.y < -circle.size ||
+            circle.y > canvasSize.h + circle.size
         ) {
           // remove the circle from the array
           circles.value.splice(i, 1)
@@ -184,20 +184,20 @@ export default {
           // update the circle position
         } else {
           drawCircle(
-            {
-              ...circle,
-              x: circle.x,
-              y: circle.y,
-              translateX: circle.translateX,
-              translateY: circle.translateY,
-              alpha: circle.alpha,
-            },
-            true
+              {
+                ...circle,
+                x: circle.x,
+                y: circle.y,
+                translateX: circle.translateX,
+                translateY: circle.translateY,
+                alpha: circle.alpha,
+              },
+              true
           )
         }
       })
       window.requestAnimationFrame(animate)
-    }    
+    }
 
     return {
       canvasRef,

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { ref, onMounted, onBeforeUnmount, reactive, watch } from 'vue'
+import {onBeforeUnmount, onMounted, reactive, ref, watch} from 'vue'
 import useMousePosition from './../utils/MousePosition'
 
 export default {
@@ -15,12 +15,12 @@ export default {
       type: Boolean,
       default: false,
     },
-  },  
+  },
   setup(props) {
     const containerRef = ref(null)
     const mousePosition = useMousePosition()
-    const mouse = reactive({ x: 0, y: 0 })
-    const containerSize = reactive({ w: 0, h: 0 })
+    const mouse = reactive({x: 0, y: 0})
+    const containerSize = reactive({w: 0, h: 0})
     const boxes = ref([])
 
     onMounted(() => {
@@ -36,18 +36,18 @@ export default {
     })
 
     watch(
-      () => mousePosition.value,
-      () => {
-        onMouseMove()
-      }
+        () => mousePosition.value,
+        () => {
+          onMouseMove()
+        }
     )
 
     watch(
-      () => props.refresh,
-      () => {
-        initContainer()
-      }
-    )   
+        () => props.refresh,
+        () => {
+          initContainer()
+        }
+    )
 
     const initContainer = () => {
       if (containerRef.value) {
@@ -59,7 +59,7 @@ export default {
     const onMouseMove = () => {
       if (containerRef.value) {
         const rect = containerRef.value.getBoundingClientRect()
-        const { w, h } = containerSize
+        const {w, h} = containerSize
         const x = mousePosition.value.x - rect.left
         const y = mousePosition.value.y - rect.top
         const inside = x < w && x > 0 && y < h && y > 0
@@ -72,7 +72,7 @@ export default {
             box.style.setProperty('--mouse-x', `${boxX}px`)
             box.style.setProperty('--mouse-y', `${boxY}px`)
           })
-        }        
+        }
       }
     }
 

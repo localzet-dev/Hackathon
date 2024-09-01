@@ -1,5 +1,5 @@
 <template>
-  <router-view />
+  <router-view/>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
       disable: 'phone',
       duration: 500,
       easing: 'ease-out-cubic',
-    }) 
+    })
   }
 }
 </script>
