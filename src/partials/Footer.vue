@@ -12,8 +12,10 @@
                        alt="Hackathon">
                 </router-link>
               </div>
-              <div class="text-sm text-neutral-300">Copyright &copy; 2024 Localzet Group <br/> <span
-                  class="text-neutral-500">Все права защищены</span></div>
+              <a class="text-sm text-neutral-300" href="https://www.localzet.com" aria-label="Localzet">
+                Copyright &copy; 2024 Localzet Group <br/>
+                <span class="text-neutral-500">Все права защищены</span>
+              </a>
             </div>
           </div>
         </div>

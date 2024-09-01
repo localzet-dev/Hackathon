@@ -495,7 +495,7 @@
               </div>
             </div>
             <!-- Box #2 -->
-            <div class="col-span-6 sm:col-span-12 md:col-span-6">
+            <div class="col-span-12 md:col-span-6">
               <div
                   class="relative h-full bg-neutral-950 border-green-600 border-2 rounded-3xl z-20 p-px overflow-hidden">
                 <div
@@ -606,7 +606,7 @@
               </div>
             </div>
             <!-- Box #3 -->
-            <div class="col-span-6 sm:col-span-12  md:col-span-6">
+            <div class="col-span-12 md:col-span-6">
               <div
                   class="relative h-full bg-neutral-950 border-blue-400 border-2 rounded-3xl z-20 p-px overflow-hidden">
                 <div

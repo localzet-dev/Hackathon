@@ -6,7 +6,7 @@
         <div
             class="relative before:absolute before:inset-0 before:-translate-x-full before:z-20 before:bg-gradient-to-l before:from-transparent before:to-neutral-950 before:to-20% after:absolute after:inset-0 after:translate-x-full after:z-20 after:bg-gradient-to-r after:from-transparent after:to-neutral-950 after:to-20%">
           <div class="testimonials-carousel swiper-container group" data-swiper-parallax="-23%">
-            <Highlighter class="swiper-wrapper w-fit" :refresh="swiperInitialized">
+            <Highlighter class="swiper-wrapper w-fit">
               <!-- Carousel items -->
               <HighlighterItem class="swiper-slide h-auto group/slide">
                 <a data-swiper-parallax="-200"
@@ -78,10 +78,10 @@ import Highlighter from './Highlighter.vue'
 import HighlighterItem from './HighlighterItem.vue'
 
 // Import Swiper
-import Swiper, {Navigation} from 'swiper'
+import Swiper, {Autoplay} from 'swiper'
 import 'swiper/css'
 
-Swiper.use([Navigation])
+Swiper.use([Autoplay])
 
 export default {
   name: 'Albums',
@@ -91,24 +91,9 @@ export default {
     HighlighterItem,
   },
   setup() {
-
-    const swiperInitialized = ref(false)
-
     onMounted(() => {
       const carousel = new Swiper('.testimonials-carousel', {
-        breakpoints: {
-          320: {
-            slidesPerView: 1
-          },
-          640: {
-            slidesPerView: 2
-          },
-          1024: {
-            slidesPerView: 3
-          }
-        },
         parallax: true,
-        slidesPerView: 'auto',
         grabCursor: true,
         loop: true,
         centeredSlides: true,
@@ -120,12 +105,7 @@ export default {
           disableOnInteraction: true,
         },
       })
-      swiperInitialized.value = true
     })
-
-    return {
-      swiperInitialized,
-    }
   }
 }
 </script>

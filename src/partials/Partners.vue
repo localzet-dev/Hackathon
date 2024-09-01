@@ -120,25 +120,13 @@ export default {
   setup() {
     onMounted(() => {
       const carousel = new Swiper('.clients-carousel', {
-        breakpoints: {
-          320: {
-            slidesPerView: 1
-          },
-          640: {
-            slidesPerView: 2
-          },
-          1024: {
-            slidesPerView: 3
-          }
-        },
         parallax: true,
-        slidesPerView: 'auto',
         grabCursor: true,
         loop: true,
         centeredSlides: true,
         initialSlide: 0,
         spaceBetween: 64,
-        speed: 5000,
+        speed: 10000,
         autoplay: {
           delay: 0,
           disableOnInteraction: true,

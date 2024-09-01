@@ -17,19 +17,19 @@
           <!-- Desktop sign in links -->
           <ul class="flex grow justify-end flex-wrap items-center">
             <li>
-              <router-link
+              <a
                   class="font-medium text-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out"
-                  to="https://lk.fantastic-hackathon.ru">Вход
-              </router-link>
+                  href="https://lk.fantastic-hackathon.ru">Вход
+              </a>
             </li>
             <li class="ml-6">
-              <router-link
+              <a
                   class="btn-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.neutral.950),_theme(colors.neutral.950))_padding-box] relative before:absolute before:inset-0 before:bg-neutral-800/30 before:rounded-full before:pointer-events-none"
-                  to="https://fantastic-hackathon.ru/reg.php">
+                  href="https://fantastic-hackathon.ru/reg.php">
                 <span class="relative inline-flex items-center">
                   Регистрация
                 </span>
-              </router-link>
+              </a>
             </li>
           </ul>
 

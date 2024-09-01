@@ -56,7 +56,6 @@
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">19:00 - 20:00</span> Второй чек-поинт
                 </div>
-                <div class="py-2 text-neutral-400 border-b border-neutral-800"></div>
               </div>
             </div>
             <!-- Enterprise price -->
