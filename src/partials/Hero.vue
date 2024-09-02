@@ -18,9 +18,7 @@
         <!-- Hero content -->
         <div class="max-w-3xl mx-auto text-center">
           <div class="mb-3" data-aos="fade-down">
-                <span class="relative inline-flex items-center">
-                  25 - 27 октября 2024 года
-                </span>
+            <pre class=" text-lg relative inline-flex items-center">25 - 27 октября  •  Ростов Арена</pre>
           </div>
           <h1 class="h1 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-4"
               data-aos="fade-down">Южный ИТ-форум</h1>
