@@ -19,11 +19,11 @@
         <div class="max-w-3xl mx-auto text-center">
           <div class="mb-3" data-aos="fade-down">
                 <span class="relative inline-flex items-center">
-                  ?? октября 2024 года
+                  25 - 27 октября 2024 года
                 </span>
           </div>
           <h1 class="h1 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-4"
-              data-aos="fade-down">«Хакатон Autumn 2024»</h1>
+              data-aos="fade-down">«Хакатон Осень 2024»</h1>
           <p class="text-lg text-neutral-300 mb-8" data-aos="fade-down" data-aos-delay="200">Форум программных
             разработчиков Ростова-на-Дону</p>
           <div

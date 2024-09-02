@@ -29,7 +29,7 @@
               <div class="grow pb-2">
                 <div
                     class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
-                  ??.10.2024
+                  25.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">12:00</span> Публикация технических заданий в
@@ -48,7 +48,7 @@
               <div class="grow pb-2">
                 <div
                     class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
-                  ??.10.2024
+                  26.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">09:00 - 10:00</span> Первый чек-поинт
@@ -63,7 +63,7 @@
               <div class="grow pb-2">
                 <div
                     class="text-lg-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
-                  ??.10.2024
+                  27.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">16:00</span> Питч-сессия технических кейсов
