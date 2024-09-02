@@ -38,7 +38,7 @@
                     class="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-8 space-y-reverse md:space-y-0 p-6 pt-0 md:p-8 md:pr-0">
 
                   <!-- Content -->
-                  <div class="w-full md:w-7/12 order-1 md:order-none max-md:text-center">
+                  <div class="w-full md:w-7/12 order-1 md:order-none">
                     <!-- Content #1 -->
                     <div>
                       <div
@@ -50,7 +50,7 @@
                       Хакатон - это возможность:</h3>
                     <div class="mt-3 max-w-s max-md:mx-auto space-y-1">
                       <button
-                          class="pointer-events-none flex items-center text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
+                          class="pointer-events-none flex items-center text-start text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
                         <svg class="shrink-0 fill-pink-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="16"
                              height="16">
                           <path
@@ -59,7 +59,7 @@
                         <span>поработать над кейсами топовых российских IT-компаний</span>
                       </button>
                       <button
-                          class="pointer-events-none flex items-center text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
+                          class="pointer-events-none flex items-center text-start text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
                         <svg class="shrink-0 fill-pink-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="16"
                              height="16">
                           <path
@@ -68,7 +68,7 @@
                         <span>побороться за призовой фонд</span>
                       </button>
                       <button
-                          class="pointer-events-none flex items-center text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
+                          class="pointer-events-none flex items-center text-start text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
                         <svg class="shrink-0 fill-pink-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="16"
                              height="16">
                           <path
@@ -77,7 +77,7 @@
                         <span>посоревноваться с другими командами</span>
                       </button>
                       <button
-                          class="pointer-events-none flex items-center text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
+                          class="pointer-events-none flex items-center text-start text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
                         <svg class="shrink-0 fill-pink-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="16"
                              height="16">
                           <path
@@ -86,7 +86,7 @@
                         <span>провести незабываемые 48 часов своей жизни</span>
                       </button>
                       <button
-                          class="pointer-events-none flex items-center text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
+                          class="pointer-events-none flex items-center text-start text-sm font-medium text-neutral-50 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 border-neutral-700 opacity-50">
                         <svg class="shrink-0 fill-pink-500 mr-3" xmlns="http://www.w3.org/2000/svg" width="16"
                              height="16">
                           <path
@@ -499,7 +499,7 @@
               <div
                   class="relative h-full bg-neutral-950 border-green-600 border-2 rounded-3xl z-20 p-px overflow-hidden">
                 <div
-                    class="relative flex items-center justify-center w-full h-full rounded-2xl before:absolute before:inset-0 before:rounded-2xl p-2">
+                    class="relative flex items-center justify-center w-full h-full rounded-2xl before:absolute before:inset-0 before:rounded-2xl p-6 md:p-8">
                   <svg class="relative fill-neutral-200 h-auto w-auto m-auto"
                        xmlns="http://www.w3.org/2000/svg" width="233.28873mm"
                        height="148.26262mm" viewBox="0 0 233.28873 148.26262" version="1.1" id="svg2128">
