@@ -7,10 +7,10 @@
         <div class="shrink-0 sm:mr-4 flex items-center">
           <!-- Logo -->
           <router-link class="block my-3 mr-1 sm:mr-2" to="/" aria-label="Hackathon">
-            <img class="max-h-10 md:max-h-auto max-w-10 md:max-w-auto" src="/logo.svg" width="66" height="58" alt="Hackathon">
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" src="/logo.svg" width="66" height="58" alt="Hackathon">
           </router-link>
           <router-link class="block my-3 mx-1 sm:mx-2" to="/" aria-label="ДГТУ">
-            <img class="max-h-10 md:max-h-auto max-w-10 md:max-w-auto w-auto" src="../images/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none w-auto" src="../images/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
           </router-link>
           <!--                <router-link class="block" to="/" aria-label="Молодёжь Ростова">-->
           <!--                  <img class="hidden md:block mx-auto md:mx-0" src="../images/organizators/rostov-youth-full.svg" width="250" height="58"-->
@@ -19,11 +19,11 @@
           <!--                       alt="Молодёжь Ростова">-->
           <!--                </router-link>-->
           <router-link class="block my-3 mx-1 sm:mx-2" to="/" aria-label="Ростовская область">
-            <img class="max-h-10 md:max-h-auto max-w-10 md:max-w-auto" src="../images/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" src="../images/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
           </router-link>
           <router-link class="block my-3 ml-1 sm:ml-2" to="/" aria-label="Министерство образования РО">
-            <img class="max-h-10 md:max-h-auto max-w-10 md:max-w-auto hidden md:block" src="../images/organizators/ministry-education-full.svg" width="177" height="58" alt="Министерство образования РО">
-            <img class="max-h-10 md:max-h-auto max-w-10 md:max-w-auto md:hidden" src="../images/organizators/ministry-education.svg" width="53" height="58" alt="Министерство образования РО">
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none hidden md:block" src="../images/organizators/ministry-education-full.svg" width="177" height="58" alt="Министерство образования РО">
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none md:hidden" src="../images/organizators/ministry-education.svg" width="53" height="58" alt="Министерство образования РО">
           </router-link>
         </div>
 
