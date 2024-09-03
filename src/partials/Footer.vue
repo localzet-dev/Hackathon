@@ -6,10 +6,27 @@
         <div class="col-span-12 md:col-span-6 lg:col-span-8 order-1 md:order-none text-center md:text-left">
           <div class="h-full flex flex-col md:flex-row lg:flex-col justify-between">
             <div class="mb-4 sm:mb-0">
-              <div class="mb-4">
-                <router-link class="block" to="/" aria-label="Localzet">
-                  <img class="mx-auto md:mx-0" src="/logo.svg" width="64" height="64"
-                       alt="Hackathon">
+              <div class="mb-4 flex items-center justify-center md:justify-normal">
+                <router-link class="block mr-2" to="/" aria-label="Localzet">
+                  <img class="mx-auto md:mx-0" src="/logo.svg" width="66" height="58" alt="Hackathon">
+                </router-link>
+                <router-link class="block mx-2" to="/" aria-label="ДГТУ">
+                  <img class="mx-auto md:mx-0" src="../images/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
+                </router-link>
+<!--                <router-link class="block mx-2" to="/" aria-label="Молодёжь Ростова">-->
+<!--                  <img class="hidden md:block mx-auto md:mx-0" src="../images/organizators/rostov-youth-full.svg" width="250" height="58"-->
+<!--                       alt="Молодёжь Ростова">-->
+<!--                  <img class="md:hidden mx-auto md:mx-0" src="../images/organizators/rostov-youth.svg" width="250" height="58"-->
+<!--                       alt="Молодёжь Ростова">-->
+<!--                </router-link>-->
+                <router-link class="block mx-2" to="/" aria-label="Ростовская область">
+                  <img class="mx-auto md:mx-0" src="../images/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
+                </router-link>
+                <router-link class="block ml-2" to="/" aria-label="Министерство образования РО">
+                  <img class="hidden md:block mx-auto md:mx-0" src="../images/organizators/ministry-education-full.svg" width="177"
+                       height="58" alt="Министерство образования РО">
+                  <img class="md:hidden mx-auto md:mx-0" src="../images/organizators/ministry-education.svg" width="53" height="58"
+                       alt="Министерство образования РО">
                 </router-link>
               </div>
               <a class="text-sm text-neutral-300" href="https://www.localzet.com" aria-label="Localzet">

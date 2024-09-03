@@ -1,13 +1,29 @@
 <template>
-  <header class="absolute w-full z-30">
+  <header class="relative w-full z-30">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="flex items-center justify-between h-16 md:h-20">
+      <div class="flex items-center justify-between h-17 md:h-20">
 
         <!-- Site branding -->
-        <div class="shrink-0 mr-4">
+        <div class="shrink-0 mr-4 flex items-center">
           <!-- Logo -->
-          <router-link class="block mt-3" to="/" aria-label="Localzet">
-            <img src="/logo.svg" width="64" height="64" alt="Hackathon">
+          <router-link class="block my-3 mr-2" to="/" aria-label="Hackathon">
+            <img src="/logo.svg" width="66" height="58" alt="Hackathon">
+          </router-link>
+          <router-link class="block my-3 mx-2" to="/" aria-label="ДГТУ">
+            <img src="../images/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
+          </router-link>
+          <!--                <router-link class="block" to="/" aria-label="Молодёжь Ростова">-->
+          <!--                  <img class="hidden md:block mx-auto md:mx-0" src="../images/organizators/rostov-youth-full.svg" width="250" height="58"-->
+          <!--                       alt="Молодёжь Ростова">-->
+          <!--                  <img class="md:hidden mx-auto md:mx-0" src="../images/organizators/rostov-youth.svg" width="250" height="58"-->
+          <!--                       alt="Молодёжь Ростова">-->
+          <!--                </router-link>-->
+          <router-link class="block my-3 mx-2" to="/" aria-label="Ростовская область">
+            <img src="../images/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
+          </router-link>
+          <router-link class="block my-3 ml-2" to="/" aria-label="Министерство образования РО">
+            <img class="hidden md:block" src="../images/organizators/ministry-education-full.svg" width="177" height="58" alt="Министерство образования РО">
+            <img class="md:hidden" src="../images/organizators/ministry-education.svg" width="53" height="58" alt="Министерство образования РО">
           </router-link>
         </div>
 
