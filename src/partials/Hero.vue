@@ -18,11 +18,11 @@
         <!-- Hero content -->
         <div class="max-w-3xl mx-auto text-center">
           <div class="mb-3" data-aos="fade-down">
-            <pre class=" text-lg relative inline-flex items-center">25 - 27 октября  •  Ростов Арена</pre>
+            <pre class="text-lg relative inline-flex items-center font-mono">25 - 27 октября  •  Ростов Арена</pre>
           </div>
-          <h1 class="h1 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200/60 via-neutral-200 to-neutral-200/60 pb-4"
+          <h1 class="h1 bg-clip-text text-transparent bg-neutral-200 pb-4"
               data-aos="fade-down">Южный ИТ-форум</h1>
-          <p class="text-lg text-neutral-300 mb-8" data-aos="fade-down" data-aos-delay="200">Форум программных
+          <p class="text-lg text-neutral-200 mb-8" data-aos="fade-down" data-aos-delay="200">Форум программных
             разработчиков Ростова-на-Дону «Хакатон Осень 2024»</p>
           <div
               class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
