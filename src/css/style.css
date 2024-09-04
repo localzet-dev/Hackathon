@@ -6,9 +6,6 @@
 @import 'additional-styles/theme.css';
 
 @import '@fontsource-variable/inter/index.css';
-@import '@fontsource-variable/karla/index.css';
-@import '@fontsource-variable/fira-code/index.css';
-@import '@fontsource/pt-mono/index.css';
 
 @import 'tailwindcss/utilities';
 

@@ -8,10 +8,9 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
+                inter: ['Inter Variable', 'sans-serif'],
                 sans: ['Inter Variable', 'sans-serif'],
                 heading: ['Inter Variable', 'sans-serif'],
-                alt: ['Karla Variable', 'sans-serif'],
-                mono: ['PT Mono', 'Fira Code Variable', ...defaultTheme.fontFamily.mono],
             },
             fontSize: {
                 xs: ['0.75rem', {lineHeight: '1.5'}],
