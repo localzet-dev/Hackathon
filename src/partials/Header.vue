@@ -6,8 +6,8 @@
         <!-- Site branding -->
         <div class="shrink-0 sm:mr-4 flex items-center">
           <!-- Logo -->
-          <router-link class="block my-3 mr-1 sm:mr-2" to="/" aria-label="Hackathon">
-            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" src="/logo.svg" width="66" height="58" alt="Hackathon">
+          <router-link class="block my-3 mr-1 sm:mr-2" to="/" aria-label="Хакатон">
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" src="/logo.svg" width="66" height="58" alt="Хакатон">
           </router-link>
           <router-link class="block my-3 ml-1 sm:mx-2" to="https://minobr.donland.ru/" aria-label="Министерство образования РО">
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none hidden md:block" src="/organizators/ministry-education-full.svg" width="177" height="58" alt="Министерство образования РО">

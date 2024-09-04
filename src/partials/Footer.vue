@@ -8,7 +8,7 @@
             <div class="mb-4 sm:mb-0">
               <div class="mb-4 flex items-center justify-center md:justify-normal">
                 <router-link class="block mr-2" to="/" aria-label="Localzet">
-                  <img class="mx-auto md:mx-0" src="/logo.svg" width="66" height="58" alt="Hackathon">
+                  <img class="mx-auto md:mx-0" src="/logo.svg" width="66" height="58" alt="Хакатон">
                 </router-link>
                 <router-link class="block ml-2" to="https://minobr.donland.ru/" aria-label="Министерство образования РО">
                   <img class="mx-auto md:mx-0 hidden lg:block" src="/organizators/ministry-education-full.svg" width="177"
