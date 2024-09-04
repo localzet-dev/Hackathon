@@ -32,8 +32,7 @@
                   25.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">12:00</span> Публикация технических заданий в
-                  группе ВКонтакте
+                    class="bg-clip-text text-transparent bg-green-400">15:00</span> Открытие Южного ИТ-форума
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">16:00</span> Регистрация участников
@@ -69,10 +68,10 @@
                     class="bg-clip-text text-transparent bg-green-400">16:00</span> Питч-сессия технических кейсов
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">18:40</span> Торжественное закрытие
+                    class="bg-clip-text text-transparent bg-green-400">20:30</span> Торжественное закрытие
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">19:00</span> Общее фотографирование
+                    class="bg-clip-text text-transparent bg-green-400">21:00</span> Общее фотографирование
                 </div>
               </div>
             </div>
