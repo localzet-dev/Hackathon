@@ -13,9 +13,7 @@
                   <div class="absolute inset-0 translate-z-0 bg-green-500 rounded-full blur-[120px]"></div>
                 </div>
 
-                <iframe src="https://vk.com/video_ext.php?oid=-106352936&id=456239203&hash=d7d5e0b66c3b404b"
-                        class="w-full h-96" frameborder="0" allowfullscreen
-                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <div id="iframe-container" class="w-full h-96"></div>
               </div>
             </HighlighterItem>
           </Highlighter>
@@ -35,5 +33,19 @@ export default {
     Highlighter,
     HighlighterItem,
   },
+  mounted() {
+    this.loadIframe();
+  },
+  methods: {
+    loadIframe() {
+      const iframe = document.createElement('iframe');
+      iframe.src = 'https://vk.com/video_ext.php?oid=-106352936&id=456239203&hash=d7d5e0b66c3b404b';
+      iframe.className = 'w-full h-96';
+      iframe.frameBorder = '0';
+      iframe.allowFullscreen = true;
+      iframe.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+      document.getElementById('iframe-container').appendChild(iframe);
+    }
+  }
 }
 </script>
