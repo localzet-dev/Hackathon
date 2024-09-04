@@ -7,25 +7,25 @@
           <div class="h-full flex flex-col md:flex-row lg:flex-col justify-between">
             <div class="mb-4 sm:mb-0">
               <div class="mb-4 flex items-center justify-center md:justify-normal">
-                <router-link class="block mr-2" to="/" aria-label="Localzet">
+                <a class="block mr-2" href="/" aria-label="Localzet">
                   <img class="mx-auto md:mx-0" src="/logo.svg" width="66" height="58" alt="Хакатон">
-                </router-link>
-                <router-link class="block ml-2" to="https://minobr.donland.ru/" aria-label="Министерство образования РО">
+                </a>
+                <a class="block ml-2" href="https://minobr.donland.ru/" aria-label="Министерство образования РО">
                   <img class="mx-auto md:mx-0 hidden lg:block" src="/organizators/ministry-education-full.svg" width="177"
                        height="58" alt="Министерство образования РО">
                   <img class="mx-auto md:mx-0 lg:hidden" src="/organizators/ministry-education.svg" width="53" height="58"
                        alt="Министерство образования РО">
-                </router-link>
-                <router-link class="block mx-2" to="https://www.donland.ru/" aria-label="Ростовская область">
+                </a>
+                <a class="block mx-2" href="https://www.donland.ru/" aria-label="Ростовская область">
                   <img class="mx-auto md:mx-0" src="/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
-                </router-link>
-                <router-link class="block mx-2" to="https://vk.com/molrostov" aria-label="Молодёжь Ростова">
+                </a>
+                <a class="block mx-2" href="https://vk.com/molrostov" aria-label="Молодёжь Ростова">
                   <img class="mx-auto md:mx-0 hidden lg:block" src="/organizators/rostov-youth-full.svg" width="200" height="64" alt="Молодёжь Ростова">
                   <img class="mx-auto md:mx-0 lg:hidden" src="/organizators/rostov-youth.svg" width="58" height="58" alt="Молодёжь Ростова">
-                </router-link>
-                <router-link class="block mx-2" to="https://donstu.ru/" aria-label="ДГТУ">
+                </a>
+                <a class="block mx-2" href="https://donstu.ru/" aria-label="ДГТУ">
                   <img class="mx-auto md:mx-0" src="/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
-                </router-link>
+                </a>
               </div>
               <a class="text-sm text-neutral-300" href="https://www.localzet.com" aria-label="Localzet">
                 Copyright &copy; 2024 Localzet Group <br/>

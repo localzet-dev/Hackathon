@@ -6,23 +6,23 @@
         <!-- Site branding -->
         <div class="shrink-0 sm:mr-4 flex items-center">
           <!-- Logo -->
-          <router-link class="block my-3 mr-1 sm:mr-2" to="/" aria-label="Хакатон">
+          <a class="block my-3 mr-1 sm:mr-2" href="/" aria-label="Хакатон">
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" src="/logo.svg" width="66" height="58" alt="Хакатон">
-          </router-link>
-          <router-link class="block my-3 ml-1 sm:mx-2" to="https://minobr.donland.ru/" aria-label="Министерство образования РО">
+          </a>
+          <a class="block my-3 ml-1 sm:mx-2" href="https://minobr.donland.ru/" aria-label="Министерство образования РО">
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none hidden md:block" src="/organizators/ministry-education-full.svg" width="177" height="58" alt="Министерство образования РО">
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none md:hidden" src="/organizators/ministry-education.svg" width="53" height="58" alt="Министерство образования РО">
-          </router-link>
-          <router-link class="block my-3 mx-1 sm:mx-2" to="https://www.donland.ru/" aria-label="Ростовская область">
+          </a>
+          <a class="block my-3 mx-1 sm:mx-2" href="https://www.donland.ru/" aria-label="Ростовская область">
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" src="/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
-          </router-link>
-          <router-link class="block my-3 mx-1 sm:mx-2" to="https://vk.com/molrostov" aria-label="Молодёжь Ростова">
+          </a>
+          <a class="block my-3 mx-1 sm:mx-2" href="https://vk.com/molrostov" aria-label="Молодёжь Ростова">
             <img class="max-h-10 md:max-h-13 hidden md:block" src="/organizators/rostov-youth-full.svg" width="200" height="64" alt="Молодёжь Ростова">
             <img class="max-h-10 md:max-h-14 max-w-12 md:max-w-none md:hidden" src="/organizators/rostov-youth.svg" width="58" height="58" alt="Молодёжь Ростова">
-          </router-link>
-          <router-link class="block my-3 mx-1 sm:ml-2" to="https://donstu.ru/" aria-label="ДГТУ">
+          </a>
+          <a class="block my-3 mx-1 sm:ml-2" href="https://donstu.ru/" aria-label="ДГТУ">
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none w-auto" src="/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
-          </router-link>
+          </a>
         </div>
 
         <!-- Desktop navigation -->
