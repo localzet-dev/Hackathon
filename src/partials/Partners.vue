@@ -13,76 +13,72 @@
               class="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-neutral-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-neutral-950">
             <div class="swiper-wrapper !ease-linear select-none items-center">
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/center-invest.png" alt="Client 02"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/axenix.png" alt="Client 04"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/beshtau.png" alt="Client 05"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/datum-soft.png" alt="Client 06"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/it.png" alt="Client 07"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16" style="filter: invert();"
                      src="../images/partners/garage.png" alt="Client 08"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/eltex.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/forabank.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/iktin.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
-                     src="../images/partners/it-education.png" alt="Client 09"/>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/kaspersky.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/sber.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/mediapark.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/odgetto.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/rostov-youth.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/special-university-automation.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
+                <img class="h-16"
                      src="../images/partners/ttk.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
-                <img class="h-16" style="filter: grayscale(1) url(#inset-shadow);"
-                     src="../images/partners/webpractik-white.png" alt="Client 09"/>
+                <img class="h-16"
+                     src="../images/partners/webpractik.png" alt="Client 09"/>
               </div>
             </div>
           </div>
