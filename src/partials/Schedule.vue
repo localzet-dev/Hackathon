@@ -32,7 +32,7 @@
                   25.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">15:00</span> Открытие Южного ИТ-форума
+                    class="bg-clip-text text-transparent bg-green-400">15:00</span> Открытие ИТ-форума
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">16:00</span> Регистрация участников
