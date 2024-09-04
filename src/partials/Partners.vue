@@ -66,10 +66,6 @@
               </div>
               <div class="swiper-slide !w-auto">
                 <img class="h-16"
-                     src="../images/partners/rostov-youth.png" alt="Client 09"/>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <img class="h-16"
                      src="../images/partners/special-university-automation.png" alt="Client 09"/>
               </div>
               <div class="swiper-slide !w-auto">
