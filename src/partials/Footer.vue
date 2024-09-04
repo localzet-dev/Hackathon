@@ -10,23 +10,21 @@
                 <router-link class="block mr-2" to="/" aria-label="Localzet">
                   <img class="mx-auto md:mx-0" src="/logo.svg" width="66" height="58" alt="Hackathon">
                 </router-link>
-                <router-link class="block mx-2" to="/" aria-label="ДГТУ">
-                  <img class="mx-auto md:mx-0" src="../images/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
+                <router-link class="block ml-2" to="/" aria-label="Министерство образования РО">
+                  <img class="mx-auto md:mx-0 hidden lg:block" src="../images/organizators/ministry-education-full.svg" width="177"
+                       height="58" alt="Министерство образования РО">
+                  <img class="mx-auto md:mx-0 lg:hidden" src="../images/organizators/ministry-education.svg" width="53" height="58"
+                       alt="Министерство образования РО">
                 </router-link>
-<!--                <router-link class="block mx-2" to="/" aria-label="Молодёжь Ростова">-->
-<!--                  <img class="hidden md:block mx-auto md:mx-0" src="../images/organizators/rostov-youth-full.svg" width="250" height="58"-->
-<!--                       alt="Молодёжь Ростова">-->
-<!--                  <img class="md:hidden mx-auto md:mx-0" src="../images/organizators/rostov-youth.svg" width="250" height="58"-->
-<!--                       alt="Молодёжь Ростова">-->
-<!--                </router-link>-->
                 <router-link class="block mx-2" to="/" aria-label="Ростовская область">
                   <img class="mx-auto md:mx-0" src="../images/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
                 </router-link>
-                <router-link class="block ml-2" to="/" aria-label="Министерство образования РО">
-                  <img class="hidden md:block mx-auto md:mx-0" src="../images/organizators/ministry-education-full.svg" width="177"
-                       height="58" alt="Министерство образования РО">
-                  <img class="md:hidden mx-auto md:mx-0" src="../images/organizators/ministry-education.svg" width="53" height="58"
-                       alt="Министерство образования РО">
+                <router-link class="block mx-2" to="/" aria-label="Молодёжь Ростова">
+                  <img class="mx-auto md:mx-0 hidden lg:block" src="../images/organizators/rostov-youth-full.svg" width="200" height="64" alt="Молодёжь Ростова">
+                  <img class="mx-auto md:mx-0 lg:hidden" src="../images/organizators/rostov-youth.svg" width="58" height="58" alt="Молодёжь Ростова">
+                </router-link>
+                <router-link class="block mx-2" to="/" aria-label="ДГТУ">
+                  <img class="mx-auto md:mx-0" src="../images/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
                 </router-link>
               </div>
               <a class="text-sm text-neutral-300" href="https://www.localzet.com" aria-label="Localzet">
