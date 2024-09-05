@@ -12,52 +12,52 @@
           <div
               class="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-neutral-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-neutral-950">
             <div class="swiper-wrapper !ease-linear select-none items-center">
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedCenterInvest" alt="Client 02"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedAxenix" alt="Client 04"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedBeshtau" alt="Client 05"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedDatumSoft" alt="Client 06"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedIT" alt="Client 07"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedGarage" alt="Client 08" style="filter: invert();"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedEltex" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedForabank" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedIktin" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedKaspersky" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedSber" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedMediapark" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedOdgetto" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedSpecialUniversityAutomation" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedTTK" alt="Client 09"/>
               </div>
-              <div class="swiper-slide !w-auto">
+              <div class="swiper-slide w-fit">
                 <img class="image" :src="CompressedWebpractik" alt="Client 09"/>
               </div>
             </div>
@@ -113,6 +113,7 @@ export default {
   setup() {
     onMounted(() => {
       const carousel = new Swiper('.clients-carousel', {
+        slidesPerView: 'auto',
         grabCursor: true,
         loop: true,
         centeredSlides: true,

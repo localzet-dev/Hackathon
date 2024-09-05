@@ -146,6 +146,7 @@ import CompressedImage20 from '../images/carousel/zSa7g-edmIw.jpg?h=400&format=w
 // Import Swiper
 import Swiper, {Autoplay} from 'swiper'
 import 'swiper/css'
+import 'swiper/css/parallax'
 
 Swiper.use([Autoplay])
 
@@ -159,6 +160,7 @@ export default {
   setup() {
     onMounted(() => {
       const carousel = new Swiper('.testimonials-carousel', {
+        parallax: true,
         slidesPerView: 'auto',
         grabCursor: true,
         loop: true,
