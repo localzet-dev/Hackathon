@@ -8,23 +8,26 @@
             <div class="mb-4 sm:mb-0">
               <div class="mb-4 flex items-center justify-center md:justify-normal">
                 <a class="block mr-2" href="/" aria-label="Localzet">
-                  <img class="mx-auto md:mx-0" src="/logo.svg" width="66" height="58" alt="Хакатон">
+                  <img class="mx-auto md:mx-0" :src="CompressedLogo" width="66" height="58" alt="Хакатон">
                 </a>
                 <a class="block ml-2" href="https://minobr.donland.ru/" aria-label="Министерство образования РО">
-                  <img class="mx-auto md:mx-0 hidden lg:block" src="/organizators/ministry-education-full.svg" width="177"
+                  <img class="mx-auto md:mx-0 hidden lg:block" :src="CompressedMinistryEducationFull" width="177"
                        height="58" alt="Министерство образования РО">
-                  <img class="mx-auto md:mx-0 lg:hidden" src="/organizators/ministry-education.svg" width="53" height="58"
+                  <img class="mx-auto md:mx-0 lg:hidden" :src="CompressedMinistryEducation" width="53" height="58"
                        alt="Министерство образования РО">
                 </a>
                 <a class="block mx-2" href="https://www.donland.ru/" aria-label="Ростовская область">
-                  <img class="mx-auto md:mx-0" src="/organizators/rostov-region.svg" width="58" height="58" alt="Ростовская область">
+                  <img class="mx-auto md:mx-0" :src="CompressedRostovRegion" width="58" height="58"
+                       alt="Ростовская область">
                 </a>
                 <a class="block mx-2" href="https://vk.com/molrostov" aria-label="Молодёжь Ростова">
-                  <img class="mx-auto md:mx-0 hidden lg:block" src="/organizators/rostov-youth-full.svg" width="200" height="64" alt="Молодёжь Ростова">
-                  <img class="mx-auto md:mx-0 lg:hidden" src="/organizators/rostov-youth.svg" width="58" height="58" alt="Молодёжь Ростова">
+                  <img class="mx-auto md:mx-0 hidden lg:block" :src="CompressedRostovYouthFull" width="200" height="64"
+                       alt="Молодёжь Ростова">
+                  <img class="mx-auto md:mx-0 lg:hidden" :src="CompressedRostovYouth" width="58" height="58"
+                       alt="Молодёжь Ростова">
                 </a>
                 <a class="block mx-2" href="https://donstu.ru/" aria-label="ДГТУ">
-                  <img class="mx-auto md:mx-0" src="/organizators/dstu.png" width="55" height="58" alt="ДГТУ">
+                  <img class="mx-auto md:mx-0" :src="CompressedDSTU" width="55" height="58" alt="ДГТУ">
                 </a>
               </div>
               <a class="text-sm text-neutral-300" href="https://www.localzet.com" aria-label="Localzet">
@@ -77,7 +80,26 @@
 </template>
 
 <script>
+import CompressedLogo from '../images/logo.svg?w=66&h=58&format=webp';
+import CompressedMinistryEducationFull from '../images/organizators/ministry-education-full.svg?w=177&h=58&format=webp';
+import CompressedMinistryEducation from '../images/organizators/ministry-education.svg?w=53&h=58&format=webp';
+import CompressedRostovRegion from '../images/organizators/rostov-region.svg?w=58&h=58&format=webp';
+import CompressedRostovYouthFull from '../images/organizators/rostov-youth-full.svg?w=200&h=64&format=webp';
+import CompressedRostovYouth from '../images/organizators/rostov-youth.svg?w=58&h=58&format=webp';
+import CompressedDSTU from '../images/organizators/dstu.png?w=55&h=58&format=webp';
+
 export default {
   name: 'Footer',
+  data() {
+    return {
+      CompressedLogo,
+      CompressedMinistryEducationFull,
+      CompressedMinistryEducation,
+      CompressedRostovRegion,
+      CompressedRostovYouthFull,
+      CompressedRostovYouth,
+      CompressedDSTU
+    };
+  }
 }
 </script>

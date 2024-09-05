@@ -6,7 +6,7 @@
       <div class="absolute inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none overflow-hidden"
            aria-hidden="true">
         <div class="absolute left-1/2 -translate-x-1/2 top-0 -z-10">
-          <img src="../images/glow-top.svg" class="max-w-none" width="1404" height="658" alt="Features Illustration">
+          <img :src="CompressedGlowTop" class="max-w-none" width="1404" height="658" alt="Features Illustration">
         </div>
       </div>
 
@@ -700,6 +700,7 @@ import {ref} from 'vue'
 import Particles from './Particles.vue'
 import Highlighter from "./Highlighter.vue";
 import HighlighterItem from "./HighlighterItem.vue";
+import CompressedGlowTop from '../images/glow-top.svg?format=webp';
 
 export default {
   name: 'Features',
@@ -707,13 +708,10 @@ export default {
     HighlighterItem, Highlighter,
     Particles
   },
-  setup() {
-
-    const tab = ref('1')
-
+  data() {
     return {
-      tab,
-    }
+      CompressedGlowTop,
+    };
   },
 }
 </script>
