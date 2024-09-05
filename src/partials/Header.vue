@@ -45,17 +45,17 @@
               </a>
             </li>
             <li class="ml-2 sm:ml-6">
-              <a
+              <router-link
                   class="hidden lg:block btn-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.neutral.950),_theme(colors.neutral.950))_padding-box] relative before:absolute before:inset-0 before:bg-neutral-800/30 before:rounded-full before:pointer-events-none"
-                  href="https://fantastic-hackathon.ru/reg.php">
+                  to="/reg.html">
                 <span class="relative inline-flex items-center">
                   Регистрация
                 </span>
-              </a>
-              <a
+              </router-link>
+              <router-link
                   class="lg:hidden mx-1 font-medium text-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out"
-                  href="https://fantastic-hackathon.ru/reg.php">Регистрация
-              </a>
+                  to="/reg.html">Регистрация
+              </router-link>
             </li>
           </ul>
 
