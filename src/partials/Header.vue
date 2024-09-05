@@ -41,7 +41,7 @@
             <li>
               <a
                   class="font-medium text-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out"
-                  href="https://lk.fantastic-hackathon.ru">Вход
+                  href="https://lk.hack-rnd.ru">Вход
               </a>
             </li>
             <li class="ml-2 sm:ml-6">
