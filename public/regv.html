@@ -813,7 +813,6 @@ function w(e, t, s, n) {
     return [i]
 }
 
-const ue = "/assets/sleepingCat-0652256e.svg";
 const ae = q("<style></style>"),
     de = q('<div class="pt-32 pb-8 px-4 sm:mx-6 min-h-100vh flex justify-center items-center"><form class="select-none"><div class="card max-w-2xl m-auto flex justify-end items-end"><div class="card relative -mt-21.5 sm:-mt-27.5 sm:divide-y-1.5px sm:divide-gray-200 sm:dark:divide-gray-700"><h5 class="!mb-6 !sm:text-3xl dark:text-indigo-400 text-indigo-500 text-center">Хакатон Весна 2024</h5><p class="font-medium text-md text-slate-500 pt-4 text-center text-lg sm:text-xl">Регистрация волонтёров</p><div class="cursor-pointer border-none w-16 absolute left-0 right-2 -bottom-[.5px] ml-auto b-5 h-8"></div></div><div class="card !mb-0"><h5 class="border-2 border-dashed p-2 border-gray-500 !text-lg !sm:text-2xl w-[fit-content]">Здесь мог быть заголовок</h5><div class="text-xl text-justify">Регистрация на <span class="dark:text-indigo-400 text-indigo-500 font-bold">Хакатон Весна 2024</span> уже закончилась!<br>Приходите в следующем году!</div></div></div></form></div>'),
     he = () => {
@@ -824,7 +823,7 @@ const ae = q("<style></style>"),
         return J(() => {
             setTimeout(() => {
                 document.head.appendChild(i)
-            }, 0), fetch(ue).then(l => l.text()).then(t)
+            }, 0), t
         }), Z(() => {
             i.remove()
         }), (() => {
