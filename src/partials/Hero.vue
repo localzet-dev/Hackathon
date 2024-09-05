@@ -65,16 +65,16 @@
               class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
               data-aos="fade-down" data-aos-delay="400">
             <div>
-              <router-link class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group"
-                 to="/reg.html">
+              <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group"
+                 href="/reg.html">
                 Стать участником
-              </router-link>
+              </a>
             </div>
             <div>
-              <router-link class="btn text-neutral-200 hover:text-white bg-neutral-900 bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
-                 to="/regv.html">
+              <a class="btn text-neutral-200 hover:text-white bg-neutral-900 bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
+                 href="/regv.html">
                 <span>Быть волонтёром</span>
-              </router-link>
+              </a>
             </div>
           </div>
 

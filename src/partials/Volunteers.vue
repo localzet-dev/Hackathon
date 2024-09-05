@@ -24,10 +24,10 @@
           Волонтёрам</h2>
         <p class="text-lg text-neutral-400 mb-8">Не разбираешься в IT, но хочешь стать частью этого события?</p>
         <div>
-          <router-link class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group"
-             to="/regv.html">
+          <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group"
+             href="/regv.html">
             Присоединяйся!
-          </router-link>
+          </a>
         </div>
       </div>
     </div>

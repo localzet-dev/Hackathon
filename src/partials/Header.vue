@@ -45,17 +45,17 @@
               </a>
             </li>
             <li class="ml-2 sm:ml-6">
-              <router-link
+              <a
                   class="hidden lg:block btn-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.neutral.950),_theme(colors.neutral.950))_padding-box] relative before:absolute before:inset-0 before:bg-neutral-800/30 before:rounded-full before:pointer-events-none"
-                  to="/reg.html">
+                  href="/reg.html">
                 <span class="relative inline-flex items-center">
                   Регистрация
                 </span>
-              </router-link>
-              <router-link
+              </a>
+              <a
                   class="lg:hidden mx-1 font-medium text-sm text-neutral-300 hover:text-white transition duration-150 ease-in-out"
-                  to="/reg.html">Регистрация
-              </router-link>
+                  href="/reg.html">Регистрация
+              </a>
             </li>
           </ul>
 
