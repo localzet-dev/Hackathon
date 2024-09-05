@@ -113,7 +113,6 @@ export default {
   setup() {
     onMounted(() => {
       const carousel = new Swiper('.clients-carousel', {
-        parallax: true,
         grabCursor: true,
         loop: true,
         centeredSlides: true,
