@@ -16,7 +16,7 @@
                   <img class="mx-auto md:mx-0 lg:hidden" :src="CompressedMinistryEducation" width="53" height="58"
                        alt="Министерство образования РО">
                 </a>
-                <a class="block mx-2" href="https://www.donland.ru/" aria-label="Ростовская область">
+                <a class="block mx-2" href="https://rostov-gorod.ru/" aria-label="Ростовская область">
                   <img class="mx-auto md:mx-0" :src="CompressedRostovRegion" width="58" height="58"
                        alt="Ростовская область">
                 </a>

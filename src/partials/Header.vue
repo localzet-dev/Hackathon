@@ -16,7 +16,7 @@
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none md:hidden" :src="CompressedMinistryEducation"
                  width="53" height="58" alt="Министерство образования РО">
           </a>
-          <a class="block my-3 mx-1 sm:mx-2" href="https://www.donland.ru/" aria-label="Ростовская область">
+          <a class="block my-3 mx-1 sm:mx-2" href="https://rostov-gorod.ru/" aria-label="Ростовская область">
             <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" :src="CompressedRostovRegion" width="58"
                  height="58" alt="Ростовская область">
           </a>
