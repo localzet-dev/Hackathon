@@ -16,7 +16,7 @@
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="max-w-4xl mx-auto text-center">
-        <img :src="CompressedImage" class="my-4 w-full" alt="">
+        <img src="../images/g1592.svg" class="my-4 w-full" alt="">
       </div>
 
       <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20 pt-6 md:pt-10">
@@ -35,15 +35,7 @@
 </template>
 
 <script>
-import CompressedImage from "../images/g1592.svg?h=400&format=webp";
-
 export default {
   name: 'Volunteers',
-  data() {
-    return {
-      CompressedImage,
-    };
-  }
-
 }
 </script>

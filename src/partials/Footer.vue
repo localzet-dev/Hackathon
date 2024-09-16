@@ -8,7 +8,7 @@
             <div class="mb-4 sm:mb-0">
               <div class="mb-4 flex items-center justify-center md:justify-normal">
                 <a class="block mr-2" href="/" aria-label="Localzet">
-                  <img class="mx-auto md:mx-0" :src="CompressedLogo" width="66" height="58" alt="Хакатон">
+                  <img class="mx-auto md:mx-0" src="../images/logo.svg" width="66" height="58" alt="Хакатон">
                 </a>
                 <a class="block ml-2" href="https://minobr.donland.ru/" aria-label="Министерство образования РО">
                   <img class="mx-auto md:mx-0 hidden lg:block" :src="CompressedMinistryEducationFull" width="177"
@@ -53,6 +53,10 @@
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
                  href="https://go.localzet.com/hack-archive">Архив кейсов</a>
             </li>
+            <li>
+              <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
+                 href="https://go.localzet.com/hack-doc">Положение</a>
+            </li>
           </ul>
         </div>
 
@@ -69,7 +73,7 @@
             </li>
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://t.me/hackathon_chat">Общий чат</a>
+                 href="https://t.me/addlist/cFS0PrEQxiVjOGEx">Общие чаты</a>
             </li>
           </ul>
         </div>
@@ -80,7 +84,6 @@
 </template>
 
 <script>
-import CompressedLogo from '../images/logo.svg?w=66&h=58&format=webp';
 import CompressedMinistryEducationFull from '../images/organizators/ministry-education-full.svg?w=177&h=58&format=webp';
 import CompressedMinistryEducation from '../images/organizators/ministry-education.svg?w=53&h=58&format=webp';
 import CompressedRostovRegion from '../images/organizators/rostov-region.svg?w=58&h=58&format=webp';
@@ -92,7 +95,6 @@ export default {
   name: 'Footer',
   data() {
     return {
-      CompressedLogo,
       CompressedMinistryEducationFull,
       CompressedMinistryEducation,
       CompressedRostovRegion,

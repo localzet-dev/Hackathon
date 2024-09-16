@@ -7,7 +7,7 @@
         <div class="shrink-0 sm:mr-4 flex items-center">
           <!-- Logo -->
           <a class="block my-3 mr-1 sm:mr-2" href="/" aria-label="Хакатон">
-            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" :src="CompressedLogo" width="66" height="58"
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" src="../images/logo.svg" width="66" height="58"
                  alt="Хакатон">
           </a>
           <a class="block my-3 ml-1 sm:mx-2" href="https://minobr.donland.ru/" aria-label="Министерство образования РО">
@@ -67,7 +67,6 @@
 </template>
 
 <script>
-import CompressedLogo from '../images/logo.svg?w=66&h=58&format=webp';
 import CompressedMinistryEducationFull from '../images/organizators/ministry-education-full.svg?w=177&h=58&format=webp';
 import CompressedMinistryEducation from '../images/organizators/ministry-education.svg?w=53&h=58&format=webp';
 import CompressedRostovRegion from '../images/organizators/rostov-region.svg?w=58&h=58&format=webp';
@@ -79,7 +78,6 @@ export default {
   name: 'Header',
   data() {
     return {
-      CompressedLogo,
       CompressedMinistryEducationFull,
       CompressedMinistryEducation,
       CompressedRostovRegion,

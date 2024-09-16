@@ -117,7 +117,7 @@ export default {
         grabCursor: true,
         loop: true,
         centeredSlides: true,
-        initialSlide: 0,
+        initialSlide: 8,
         spaceBetween: 64,
         speed: 10000,
         autoplay: {
