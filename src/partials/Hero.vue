@@ -55,7 +55,7 @@
         <!-- Hero content -->
         <div class="max-w-3xl mx-auto text-center">
           <div class="mb-3" data-aos="fade-down">
-            <pre class="text-lg relative inline-flex items-center">25 - 27 октября  •  Ростов Арена</pre>
+            <pre class="text-lg relative inline-flex items-center">25 - 27 октября <!-- •  Ростов Арена--></pre>
           </div>
           <h1 class="h1 bg-clip-text text-transparent bg-neutral-200 pb-4"
               data-aos="fade-down">Южный ИТ-форум</h1>
@@ -66,7 +66,7 @@
               data-aos="fade-down" data-aos-delay="400">
             <div>
               <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group"
-                 href="/reg.html">
+                 href="https://lk.hack-rnd.ru/register">
                 Стать участником
               </a>
             </div>
